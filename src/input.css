@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form {
+  border: 1px solid #fffbc0;
+  border-radius: 5px;
+}
+
+.header {
+  letter-spacing: 4px;
+  line-height: 1.5rem;
+}
+.tracking-custom {
+  letter-spacing: 0.3em;
+}

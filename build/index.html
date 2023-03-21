@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Groceries list</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body class="bg-[#fffbf4] min-h-screen">
+    <main>
+      <section class="flex justify-center items-center">
+        <div
+          class="bg-[#fffbf4] min-h-fit absolute top-72 h-52 w-2/4 py-8 px-4 rounded-lg shadow-md"
+        >
+          <h1
+            class="text-center mt-6 upper header font-bold tracking-custom text-3xl"
+          >
+            Groceries
+          </h1>
+          <form
+            action=""
+            class="flex justify-center mt-6 w-4/5 mx-auto border form"
+          >
+            <p class="alert"></p>
+            <div
+              class="form-control flex w-4/5 border rounded-lg border-inherit"
+            >
+              <input
+                type="text"
+                placeholder="e.g pasta..."
+                class="bg-[#fffbc0] w-4/5 outline-none"
+                id="grocery"
+              />
+              <button
+                type="submit"
+                class="bg-[#132a18] text-white border-none w-1/5 submit-btn"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+          <div class="grocery-container flex flex-col items-center my-6">
+            <div class="grocery-list"></div>
+            <button class="clr-btn tracking-custom text-red-400">
+              Clear list
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
